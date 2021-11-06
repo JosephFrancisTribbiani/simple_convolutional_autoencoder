@@ -1,8 +1,7 @@
 # simple_convolutional_autoencoder
 
-----
 |Layer (type)|Output Shape|Param|
-----
+|---|---|---|
 |Conv2d-1|[-1, 32, 48, 48]|896|
 |BatchNorm2d-2|[-1, 32, 48, 48]|64|
 |MaxPool2d-3|[-1, 32, 24, 24]|0|
