@@ -49,4 +49,9 @@ Total params: 3,082,749
 Trainable params: 3,082,749  
 Non-trainable params: 0
 
-Автоэнкодер обучался на изображениях лиц людей из датасета `sklearn.datasets.fetch_lfw_people`. В качестве функции потерь выбрана `MSELoss()`, минимальное значение которой на этапе обучения составило 0.0015605360154533781.
+Автоэнкодер обучался на изображениях лиц людей из датасета `sklearn.datasets.fetch_lfw_people`. В качестве функции потерь выбрана `MSELoss()`, минимальное значение которой на этапе обучения составило 0.0015605360154533781.  
+Графики изменения `loss` на тренировочной и тестовой выборках, а также график изменения `learning rate` представлены ниже.  
+<a src='https://github.com/JosephFrancisTribbiani/simple_convolutional_autoencoder/tree/main/images/Training.png'></a>
+
+Результаты работы автоэкодера представлены ниже. Первая строка - исходные изображения, вторая строка - восстановленные изображения из латентного представления исходных.
+<a src='https://github.com/JosephFrancisTribbiani/simple_convolutional_autoencoder/tree/main/images/results.png'></a>
