@@ -43,6 +43,6 @@
 |BatchNorm2d-39|[-1, 3, 48, 48]|6|
 |ELU-40|[-1, 3, 48, 48]|0|
 
-Total params: 3,082,749
-Trainable params: 3,082,749
-Non-trainable params: 0
+Total params: 3,082,749  
+Trainable params: 3,082,749  
+Non-trainable params: 0  
